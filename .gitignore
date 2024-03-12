@@ -3,10 +3,10 @@
 *.iml
 *.iws
 *.ipr
+### 디렉토리는 주로 IntelliJ IDEA와 같은 IDE에서 생성되는 컴파일된 클래스 파일이나 빌드된 출력물을 포함하는 디렉토리입니다. ###
+out/
 
 # Gradle
 .gradle/
 build/
 
-### 디렉토리는 주로 IntelliJ IDEA와 같은 IDE에서 생성되는 컴파일된 클래스 파일이나 빌드된 출력물을 포함하는 디렉토리입니다. ###
-out/
