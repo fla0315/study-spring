@@ -30,7 +30,7 @@ public class HelloController {
     }
 
     @GetMapping("hello-api")
-    @ResponseBody
+    @ResponseBody //-> 객체가 오면 default로 json 방식으로 만들어서 http 방식으로 반환하겠다~ 라는 거다.
     public Hello helloApi (@RequestParam("name")String name) {
         Hello hello = new Hello();
         hello.setName(name);
@@ -40,6 +40,7 @@ public class HelloController {
     static class Hello {
         private String name;
 
+        //이렇게 선언해서 하는 방법을 프로퍼티 접근 방식이라고도 한다.
         public String getName() {
             return name;
         }
