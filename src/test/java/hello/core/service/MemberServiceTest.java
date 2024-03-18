@@ -15,6 +15,7 @@ class MemberServiceTest {
     MemberService memberService;
     MemoryMemberRepository memberRepository;
 
+    //연관관계 공부
     @BeforeEach
     public void beforeEach() {
         memberRepository = new MemoryMemberRepository();
